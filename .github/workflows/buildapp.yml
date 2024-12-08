@@ -33,7 +33,7 @@ on:
         type: string
       upload_artifact:
         description: "Upload iPA as artifact (Public)"
-        default: true
+        default: false
         required: false
         type: boolean
       catbox_upload:
@@ -43,7 +43,7 @@ on:
         type: boolean
       create_release:
         description: "Create a draft release (Private)"
-        default: false
+        default: true
         required: false
         type: boolean
 
